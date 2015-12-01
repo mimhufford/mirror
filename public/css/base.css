@@ -1,0 +1,70 @@
+body {
+  font-family: Lato, monospace;
+  background: black;
+  color: white;
+  font-size: 50px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
+.row {
+  display: flex;
+}
+
+.date {
+  font-weight: 300;
+  color: #ccc;
+}
+
+.time {
+  font-size: 2.7em;
+}
+
+.today {
+  color: #eee;
+  align-self: center;
+  padding-left: 1.2em;
+}
+.today .temp {
+  font-size: 1.5em;
+}
+.today i {
+  padding-left: 0.3em;
+  font-size: 1.6em;
+}
+
+.news {
+  font-weight: 300;
+  color: #ddd;
+  font-size: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.downloads {
+  font-weight: 300;
+  color: #ddd;
+  font-size: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.now-playing {
+  font-size: 0.4em;
+  font-weight: 300;
+  color: #ccc;
+}
+.telly {
+  margin-bottom: 0.5em;
+}
+.telly .episode {
+  color: #ddd;
+  font-weight: 300;
+  font-size: 0.7em;
+}
